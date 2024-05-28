@@ -1,7 +1,14 @@
-﻿internal class Program
+﻿using System;
+
+namespace Kotek
 {
-    private static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            int myNum = 3;
+            string myString = myNum.ToString();
+            Console.WriteLine(myString);
+        }
     }
 }
