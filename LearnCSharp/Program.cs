@@ -6,9 +6,10 @@ namespace Kotek
     {
         static void Main(string[] args)
         {
-            int myNum = 3;
-            string myString = myNum.ToString();
-            Console.WriteLine(myString);
+
+            var myInput = Console.ReadLine();
+            Console.WriteLine("Mój input: " + myInput);
+
         }
     }
 }
