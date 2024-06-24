@@ -6,10 +6,10 @@ namespace Kotek
     {
         static void Main(string[] args)
         {
-
-            var myInput = Console.ReadLine();
-            Console.WriteLine("Mój input: " + myInput);
-
+            for (int i = 1; i < 6; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
