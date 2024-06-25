@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.Design;
 
 namespace Kotek
 {
@@ -6,10 +7,19 @@ namespace Kotek
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i < 6; i++)
+            for (int i = 1; i < 11; i++) 
             {
-                Console.WriteLine(i);
+                for (int j = 1; j < 11; j++) 
+                {
+                    if (i*j>9)
+                    {
+                        Console.Write(i*j+" ");
+                        
+                    }
+                    else Console.Write(i*j+"  ");
+                }
+                Console.WriteLine();
             }
         }
-    }
+    } 
 }
