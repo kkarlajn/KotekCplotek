@@ -7,19 +7,14 @@ namespace Kotek
     {
         static void Main(string[] args)
         {
-            string imie = "";
-            while (imie != "koniec") {
-                imie = Console.ReadLine();
-                if (imie == "koniec") break;
-                
-                Console.WriteLine("Mam na imie: " + imie);
-            }
-
-            for (int i=0; i<100; i++)
+            int[] oceny = { 3, 4, 5, 2, 1 };
+            foreach(int ocena in oceny)
             {
-                if (i > 20 && i < 60) break;
-                Console.WriteLine(i);
+                Console.WriteLine(ocena);
             }
+            Console.WriteLine("Najwyzsza ocena to " + oceny.Max());
+            Console.WriteLine("Najnizsza ocena to " + oceny.Min());
+            Console.WriteLine("Suma ocen " + oceny.Sum());
         }
 
     } 
