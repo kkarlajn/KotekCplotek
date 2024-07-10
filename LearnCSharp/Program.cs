@@ -7,14 +7,18 @@ namespace Kotek
     {
         static void Main(string[] args)
         {
-            int[] oceny = { 3, 4, 5, 2, 1 };
-            foreach(int ocena in oceny)
-            {
-                Console.WriteLine(ocena);
-            }
-            Console.WriteLine("Najwyzsza ocena to " + oceny.Max());
-            Console.WriteLine("Najnizsza ocena to " + oceny.Min());
-            Console.WriteLine("Suma ocen " + oceny.Sum());
+            Kitty Kikki = new Kitty("Kikki");
+            Kikki.meow();
+            Kitty Mimmi = new Kitty("Mimmi");
+            Mimmi.meow();
+            Kitty Diddi = new Kitty("Diddi");
+            Diddi.meow();
+            Kitty Lilli = new Kitty("Lilli");
+            Lilli.meow();
+            Kitty Sissi = new Kitty("Sissi");
+            Sissi.meow();
+            Kitty Fiffi = new Kitty("Fiffi");
+            Fiffi.meow();
         }
 
     } 
